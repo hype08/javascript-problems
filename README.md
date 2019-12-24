@@ -1,4 +1,4 @@
-<h1 align="center">JavaScript Knowledge Testing Library Questions with Solutions</h1>
+<h1 align="center">JavaScript Q & A with Testing Integration</h1>
 
 ## How to use
 
@@ -8,6 +8,8 @@ npm install
 
 ## How to run tests
 
+
+<h2 align="center">For LC Questions</h2>
 
 ```bash
 jest --watch <FolderName>
