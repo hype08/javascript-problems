@@ -1,4 +1,4 @@
-<h1 align="center">JavaScript Q & A with Testing Integration</h1>
+<h1 align="center">JavaScript Q & A with Testing Integration ✅</h1>
 
 ## How to use
 
