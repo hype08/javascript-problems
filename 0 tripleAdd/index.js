@@ -1,4 +1,6 @@
-// curry 
+// Create a function that returns tripleAdd(10)(20)(30)
+
+// Solution: curry 
 function tripleAdd(num1) {
   return function (num2) {
     return function (num3) {
