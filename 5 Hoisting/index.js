@@ -1,10 +1,10 @@
 // tab 1
 
-console.log(color);
+console.log('1 above:', color);
 
 var color = "blue";
 
-console.log(color);
+console.log('1 below', color);
 
 
 
@@ -12,29 +12,29 @@ console.log(color);
 
 var color;
 
-console.log(color);
+console.log('2 above:', color);
 
 color = "blue";
 
-console.log(color);
+console.log('2 below:', color);
 
 
 
 // tab 3
 
-console.log(getProduct(2, 3));
+console.log('3 above:', getProduct(2, 3));
 
 var getProduct = function (num1, num2) {
   return num1 * num2;
 };
 
-console.log(getProduct(2, 3));
+console.log('3 below:', getProduct(2, 3));
 
 
 
 // tab 4
 
-console.log(getProduct(2, 3));
+console.log('4: ', getProduct(2, 3));
 
 function getProduct(num1, num2) {
   return num1 * num2;
