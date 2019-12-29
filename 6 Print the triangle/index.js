@@ -17,7 +17,10 @@
 
 // Write a for loop that makes seven calls to console.log to output the following triangle.
 
-(function forTriangle() {
-  for (let line ="*"; line.length < 8; line += "*")
-  console.log(line)
-})()
+// (function forTriangle() {
+//   for (let line ="*"; line.length < 8; line += "*")
+//   console.log(line)
+// })()
+
+for (let i = '*'; i.length < 6; i += '*')
+  console.log(i)
