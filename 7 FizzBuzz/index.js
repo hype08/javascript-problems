@@ -8,8 +8,8 @@ with two exceptions.abs
 
 */
 
-for (var n = 1; n <= 100; n++) {
-  var output = "";
+for (let n = 1; n <= 100; n++) {
+  let output = "";
   if (n % 3 == 0)
     output += "Fizz";
   if (n % 5 == 0)
