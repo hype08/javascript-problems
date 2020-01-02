@@ -8,5 +8,5 @@ function reverseArray(array) {
       return reverse
 }
 
-// console.log(reverseArray(["1", "2", "3"]))
+console.log(reverseArray([1, 2, 3]))
 
