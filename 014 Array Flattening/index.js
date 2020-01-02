@@ -9,3 +9,18 @@ console.log(flattened)
 
 let ES2019 = ['Dog', ['Sheep', 'Wolf']].flat()
 console.log(ES2019)
+
+['Dog', ['Sheep', ['Wolf']]].flat()
+//[ 'Dog', 'Sheep', [ 'Wolf' ] ]
+
+['Dog', ['Sheep', ['Wolf']]].flat(2)
+//[ 'Dog', 'Sheep', 'Wolf' ]
+
+['Dog', ['Sheep', ['Wolf']]].flat(Infinity)
+//[ 'Dog', 'Sheep', 'Wolf' ]
+
+['My dog', 'is awesome'].map(words => words.split(' '))
+//[ [ 'My', 'dog' ], [ 'is', 'awesome' ] ]
+
+['My dog', 'is awesome'].flatMap(words => words.split(' '))
+//[ 'My', 'dog', 'is', 'awesome' ]
