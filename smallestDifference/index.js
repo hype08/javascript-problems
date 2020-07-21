@@ -4,6 +4,7 @@ Write a function that takes in two non-empty arrays of integers, finds the pair 
 You can assume there will only be one pair of numbers with the smallest difference.
 */
 
+// O(Nlog(n) + Mlog(m)) Time | O(1) Space
 function smallestDifference(arrayOne, arrayTwo) {
   arrayOne.sort((a, b) => a - b);
   arrayTwo.sort((a, b) => a - b);
