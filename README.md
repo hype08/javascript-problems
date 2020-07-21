@@ -6,17 +6,8 @@
 npm install
 ```
 
-## How to run tests
-
-
-<h2 align="center">For LC Questions</h2>
+## Run tests
 
 ```bash
-jest --watch <FolderName>
-```
-
-### For example: 
-
-```bash
-jest --watch LC125_isPalindrome
+npm test
 ```
